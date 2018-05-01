@@ -19,11 +19,11 @@ X = 2
 ```
 ```prolog
 /*If the passed-in list has fewer than 2 elements, it would fail:*/
-    ?- second_min([], X).
-    false
+?- second_min([], X).
+false
 
-    ?- second_min([6], X).
-    false
+?- second_min([6], X).
+false
 ```
 * numlist(Lo, Hi, Result)
 ```prolog
