@@ -55,7 +55,8 @@ Positive = [0, 2]
 6 7 2
 8 3 4
 
-Which is a grid of 9 numbers where each row and column add up to the same number. The number for the above grid is 15.
+Which is a grid of 9 numbers where each row and column add up to the same number. 
+The number for the above grid is 15.
 ```
 ```prolog
 ?- magic([1,2,3,4,5,6,7,8,9], Result).
