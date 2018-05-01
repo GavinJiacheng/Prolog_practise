@@ -17,7 +17,7 @@ X = 4
 ?- second_min([1,2], X).
 X = 2
 ```
-If the passed-in list has fewer than 2 elements, it would fail:
+    * If the passed-in list has fewer than 2 elements, it would fail:
 ```prolog
     ?- second_min([], X).
     false
@@ -49,14 +49,14 @@ Negative = [-1],
 Positive = [0, 2]
 ```
 * 3x3 magic square
-3x3 magic square is the format like this:
+    * 3x3 magic square is the format like this:
 ```
 1 5 9
 6 7 2
 8 3 4
 ```
-Which is a grid of 9 numbers where each row and column add up to the same number. The number for the above grid is 15.
-And this code can do this:
+    * Which is a grid of 9 numbers where each row and column add up to the same number. The number for the above grid is 15.
+    * And this code can do this:
 ```prolog
 ?- magic([1,2,3,4,5,6,7,8,9], Result).
 Result = [1, 5, 9, 6, 7, 2, 8, 3, 4]
